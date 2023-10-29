@@ -2,6 +2,8 @@ import os
 import requests
 from flask import Flask, redirect, request, session, render_template_string
 
+print("ZER, READ THE 'READ ME' FILE!")
+
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
